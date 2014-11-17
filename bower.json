@@ -1,0 +1,30 @@
+{
+  "name": "atomic-foundation",
+  "version": "0.0.1",
+  "homepage": "https://github.com/cmoralesweb/atomic-foundation",
+  "authors": [
+    "Carlos Morales <carlos@cmorales.es>"
+  ],
+  "description": "Zurb Foundation + SASS Placeholders + Atomic Design",
+  "main": "style.scss",
+  "keywords": [
+    "scss",
+    "sass",
+    "atomic",
+    "design",
+    "css",
+    "placeholders",
+    "foundation"
+  ],
+  "license": "GPL 3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "foundation": "~5.4.7"
+  }
+}

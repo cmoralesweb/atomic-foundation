@@ -1,0 +1,116 @@
+%row-main {
+    @include grid-row(false);
+}
+
+%row-nest-small {
+    @include grid-row(nest);
+}
+
+%row-nest-medium {
+    @media #{$medium-up} {
+        @include grid-row(nest);
+    }
+}
+
+%row-nest-large {
+    @media #{$large-up} {
+        @include grid-row(nest);
+    }
+}
+
+@for $i from 1 through $total-columns {
+    %small-#{$i} { 
+        @include grid-column($i); 
+    }  
+    %medium-#{$i} {
+        @media #{$medium-up} {
+            @include grid-column($i); 
+        }
+    }
+    %large-#{$i} {
+        @media #{$large-up} {
+            @include grid-column($i); 
+        }
+    }
+}
+
+%push-pull-base {
+    position: relative;
+}
+//
+@for $i from 1 through $total-columns - 1 {
+    %small-offset-#{$i} {
+        margin-#{$default-float}: grid-calc($i, $total-columns);
+        @extend %push-pull-base;
+    }
+    %medium-offset-#{$i} {
+        @extend %push-pull-base;
+        @media #{$medium-up} {
+            margin-#{$default-float}: grid-calc($i, $total-columns);
+        }
+    }
+    %large-offset-#{$i} {
+        @extend %push-pull-base;
+        @media #{$large-up} {
+            margin-#{$default-float}: grid-calc($i, $total-columns);
+        }
+    }
+    %small-push-#{$i} {
+        @extend %push-pull-base;
+        #{$default-float}: grid-calc($i, $total-columns);
+        #{$opposite-direction}: auto;
+    }
+    %medium-push-#{$i} {
+        @extend %push-pull-base;
+        @media #{$medium-up} {
+            #{$default-float}: grid-calc($i, $total-columns);
+            #{$opposite-direction}: auto;
+        }
+    }
+    %large-push-#{$i} {
+        @extend %push-pull-base;
+        @media #{$large-up} {
+            #{$default-float}: grid-calc($i, $total-columns);
+            #{$opposite-direction}: auto;
+        }
+    }
+    %small-pull-#{$i} {
+        @extend %push-pull-base;
+        #{$opposite-direction}: grid-calc($i, $total-columns);
+        #{$default-float}: auto;
+    }
+    %medium-pull-#{$i} {
+        @extend %push-pull-base;
+        @media #{$medium-up} {
+            #{$opposite-direction}: grid-calc($i, $total-columns);
+            #{$default-float}: auto;
+        }
+    }
+    %large-pull-#{$i} {
+        @extend %push-pull-base;
+        @media #{$large-up} {
+            #{$opposite-direction}: grid-calc($i, $total-columns);
+            #{$default-float}: auto;
+        }
+    }
+}
+
+%small-centered {
+    margin-#{$default-float}: auto;
+    margin-#{$opposite-direction}: auto;
+    float: none !important;
+}
+%medium-centered {
+    @media #{$medium-up} {
+        margin-#{$default-float}: auto;
+        margin-#{$opposite-direction}: auto;
+        float: none !important;
+    }
+}
+%large-centered {
+    @media #{$large-up} {
+        margin-#{$default-float}: auto;
+        margin-#{$opposite-direction}: auto;
+        float: none !important;
+    }
+}

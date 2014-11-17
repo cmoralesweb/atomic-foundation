@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+%block-grid-base {
+    @include block-grid;
+}
+
+@for $i from 1 through $block-grid-elements {
+    %small-block-grid-#{$i} {
+        @extend %block-grid-base;
+        @include block-grid($i,$block-grid-default-spacing,false,false);
+    }
+    @media #{$small} {
+        %medium-block-grid-#{$i} {
+            @include block-grid($i,$block-grid-default-spacing,false,false);
+        }
+    }
+    @media #{$medium} {
+        %large-block-grid-#{$i} {
+            @include block-grid($i,$block-grid-default-spacing,false,false);
+        }
+    }
+}
