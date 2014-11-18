@@ -1,66 +1,48 @@
 @charset "UTF-8";
 
-//       #### ##   ## ######   ##### ######  ######  ##   ##   ## ######
-//        ##  ### ###  ##  ## ##   ## ##  ## # ## # ####  ###  ## # ## #
-//        ##  #######  ##  ## ##   ## ##  ##   ##  ##  ## #### ##   ##
-//        ##  #######  #####  ##   ## #####    ##  ##  ## ## ####   ##
-//        ##  ## # ##  ##     ##   ## ## ##    ##  ###### ##  ###   ##
-//        ##  ##   ##  ##     ##   ## ##  ##   ##  ##  ## ##   ##   ##
-//       #### ##   ## ####     ##### #### ##  #### ##  ## ##   ##  ####
-//
-// Some Foundation classes ARE NOT GENERATED to avoid including presentational code in the HTML.
-// If their corresponding $include-module-name-classes variable is off in _foundation-settings
-// they won't be available in the HTML and would be applied via mixins/placeholders.
-
 //@import "utilities/normalize";
 
 //@import "utilities/foundation-settings";
 
-@import "bower_components/foundation/scss/foundation/components/global";
-
-$include-html-grid-classes: false;
+@import "foundation/scss/foundation/components/global";
 
 // Behold, here are all the Foundation components.
-@import "bower_components/foundation/scss/foundation/components/grid";
-// @import "../vendor/foundation/scss/foundation/components/accordion";
-//@import "../vendor/foundation/scss/foundation/components/alert-boxes";
-//@import "../vendor/foundation/scss/foundation/components/block-grid";
-// @import "../vendor/foundation/scss/foundation/components/breadcrumbs";
-// @import "../vendor/foundation/scss/foundation/components/button-groups";
-//@import "../vendor/foundation/scss/foundation/components/buttons";
-//@import "../vendor/foundation/scss/foundation/components/clearing";
-//@import "../vendor/foundation/scss/foundation/components/dropdown";
-// @import "../vendor/foundation/scss/foundation/components/dropdown-buttons";
-// @import "../vendor/foundation/scss/foundation/components/flex-video";
-//@import "../vendor/foundation/scss/foundation/components/forms";
-// @import "../vendor/foundation/scss/foundation/components/icon-bar";
-//@import "../vendor/foundation/scss/foundation/components/inline-lists";
-// @import "../vendor/foundation/scss/foundation/components/joyride";
-// @import "../vendor/foundation/scss/foundation/components/keystrokes";
-// @import "../vendor/foundation/scss/foundation/components/labels";
-// @import "../vendor/foundation/scss/foundation/components/magellan";
-// @import "../vendor/foundation/scss/foundation/components/orbit";
-//@import "../vendor/foundation/scss/foundation/components/pagination";
-//@import "../vendor/foundation/scss/foundation/components/panels";
-// @import "../vendor/foundation/scss/foundation/components/pricing-tables";
-// @import "../vendor/foundation/scss/foundation/components/progress-bars";
-// @import "../vendor/foundation/scss/foundation/components/range-slider";
-//@import "../vendor/foundation/scss/foundation/components/reveal";
-// @import "../vendor/foundation/scss/foundation/components/side-nav";
-// @import "../vendor/foundation/scss/foundation/components/split-buttons";
-// @import "../vendor/foundation/scss/foundation/components/sub-nav";
-// @import "../vendor/foundation/scss/foundation/components/switches";
-//@import "../vendor/foundation/scss/foundation/components/tables";
-//@import "../vendor/foundation/scss/foundation/components/tabs";
-//@import "../vendor/foundation/scss/foundation/components/thumbs";
-// @import "../vendor/foundation/scss/foundation/components/tooltips";
-//@import "../vendor/foundation/scss/foundation/components/top-bar";
-//@import "../vendor/foundation/scss/foundation/components/type";
-// @import "../vendor/foundation/scss/foundation/components/offcanvas";
-// @import "../vendor/foundation/scss/foundation/components/visibility";
+@import "foundation/scss/foundation/components/grid";
+// @import "foundation/scss/foundation/components/accordion";
+//@import "foundation/scss/foundation/components/alert-boxes";
+//@import "foundation/scss/foundation/components/block-grid";
+// @import "foundation/scss/foundation/components/breadcrumbs";
+// @import "foundation/scss/foundation/components/button-groups";
+//@import "foundation/scss/foundation/components/buttons";
+//@import "foundation/scss/foundation/components/clearing";
+//@import "foundation/scss/foundation/components/dropdown";
+// @import "foundation/scss/foundation/components/dropdown-buttons";
+// @import "foundation/scss/foundation/components/flex-video";
+//@import "foundation/scss/foundation/components/forms";
+// @import "foundation/scss/foundation/components/icon-bar";
+//@import "foundation/scss/foundation/components/inline-lists";
+// @import "foundation/scss/foundation/components/joyride";
+// @import "foundation/scss/foundation/components/keystrokes";
+// @import "foundation/scss/foundation/components/labels";
+// @import "foundation/scss/foundation/components/magellan";
+// @import "foundation/scss/foundation/components/orbit";
+//@import "foundation/scss/foundation/components/pagination";
+//@import "foundation/scss/foundation/components/panels";
+// @import "foundation/scss/foundation/components/pricing-tables";
+// @import "foundation/scss/foundation/components/progress-bars";
+// @import "foundation/scss/foundation/components/range-slider";
+//@import "foundation/scss/foundation/components/reveal";
+// @import "foundation/scss/foundation/components/side-nav";
+// @import "foundation/scss/foundation/components/split-buttons";
+// @import "foundation/scss/foundation/components/sub-nav";
+// @import "foundation/scss/foundation/components/switches";
+//@import "foundation/scss/foundation/components/tables";
+//@import "foundation/scss/foundation/components/tabs";
+//@import "foundation/scss/foundation/components/thumbs";
+// @import "foundation/scss/foundation/components/tooltips";
+//@import "foundation/scss/foundation/components/top-bar";
+//@import "foundation/scss/foundation/components/type";
+// @import "foundation/scss/foundation/components/offcanvas";
+// @import "foundation/scss/foundation/components/visibility";
 
-@import "foundation-placeholders/grid-placeholders";
-
-.pepe {
-    color: red;
-}
+// @import "foundation-placeholders/grid-placeholders";
