@@ -48,6 +48,8 @@
 // $button-disabled-opacity: 0.7;
 // $button-disabled-cursor: $cursor-default-value;
 
+@import "bower_components/foundation/scss/foundation/components/buttons";
+
 // Button Groups
 // - - - - - - - - - - - - - - - - - - - - - - - - -
 
@@ -56,6 +58,8 @@
 // Sets the margin for the right side by default, and the left margin if right-to-left direction is used
 // $button-bar-margin-opposite: rem-calc(10);
 // $button-group-border-width: 1px;
+
+@import "bower_components/foundation/scss/foundation/components/button-groups";
 
 
 // Dropdown Buttons
@@ -96,6 +100,7 @@
 // $dropdown-button-pip-opposite-lrg: $button-pip-lrg * 2.5;
 // $dropdown-button-pip-top-lrg: -$button-pip-lrg / 2 + rem-calc(3);
 
+@import "bower_components/foundation/scss/foundation/components/dropdown-buttons";
 
 // Split Buttons
 // - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -135,3 +140,5 @@
 // $split-button-pip-size-lrg: $button-pip-lrg - rem-calc(6);
 // $split-button-pip-top-lrg: $button-pip-lrg + rem-calc(5);
 // $split-button-pip-default-float-lrg: rem-calc(-6);
+
+@import "bower_components/foundation/scss/foundation/components/split-buttons";

@@ -19,3 +19,5 @@
 // $keystroke-border-width: 1px;
 // $keystroke-border-color: scale-color($keystroke-bg, $lightness: $keystroke-function-factor);
 // $keystroke-radius: $global-radius;
+
+@import "bower_components/foundation/scss/foundation/components/keystrokes";
