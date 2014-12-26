@@ -10,13 +10,13 @@
 //                                            
 
 //@import "bower_components/foundation/scss/normalize";
-//@import "bower_components/atomic-foundation/utilities/base";
-//@import "bower_components/atomic-foundation/utilities/colors";
-//@import "bower_components/atomic-foundation/utilities/global";
-//@import "bower_components/atomic-foundation/utilities/media-queries";
-//@import "bower_components/atomic-foundation/utilities/visibility";
-//@import "bower_components/atomic-foundation/utilities/grid";
-//@import "bower_components/atomic-foundation/utilities/block-grid";
+//@import "bower_components/atomic-foundation/atomic-foundation/utilities/base";
+//@import "bower_components/atomic-foundation/atomic-foundation/utilities/colors";
+//@import "bower_components/atomic-foundation/atomic-foundation/utilities/global";
+//@import "bower_components/atomic-foundation/atomic-foundation/utilities/media-queries";
+//@import "bower_components/atomic-foundation/atomic-foundation/utilities/visibility";
+//@import "bower_components/atomic-foundation/atomic-foundation/utilities/grid";
+//@import "bower_components/atomic-foundation/atomic-foundation/utilities/block-grid";
 
 //      #####   ##   ##   ##   ######  ###  ##  #####  
 //     ##   ##  ##   ##  ####   ##  ##  ##  ## ##   ## 
@@ -27,19 +27,19 @@
 //      #####    #####  ##  ## #### ## ###  ##  #####  
 //         ###                                         
 
-//@import "bower_components/atomic-foundation/quarks/buttons";
-//@import "bower_components/atomic-foundation/quarks/flex-video";
-//@import "bower_components/atomic-foundation/quarks/forms";
-//@import "bower_components/atomic-foundation/quarks/keystrokes";
-//@import "bower_components/atomic-foundation/quarks/labels";
-//@import "bower_components/atomic-foundation/quarks/lists";
-//@import "bower_components/atomic-foundation/quarks/panels";
-//@import "bower_components/atomic-foundation/quarks/progress-bar";
-//@import "bower_components/atomic-foundation/quarks/range-slider";
-//@import "bower_components/atomic-foundation/quarks/tables";
-//@import "bower_components/atomic-foundation/quarks/thumbnail";
-//@import "bower_components/atomic-foundation/quarks/tooltip";
-//@import "bower_components/atomic-foundation/quarks/typography";
+//@import "bower_components/atomic-foundation/atomic-foundation/quarks/buttons";
+//@import "bower_components/atomic-foundation/atomic-foundation/quarks/flex-video";
+//@import "bower_components/atomic-foundation/atomic-foundation/quarks/forms";
+//@import "bower_components/atomic-foundation/atomic-foundation/quarks/keystrokes";
+//@import "bower_components/atomic-foundation/atomic-foundation/quarks/labels";
+//@import "bower_components/atomic-foundation/atomic-foundation/quarks/lists";
+//@import "bower_components/atomic-foundation/atomic-foundation/quarks/panels";
+//@import "bower_components/atomic-foundation/atomic-foundation/quarks/progress-bar";
+//@import "bower_components/atomic-foundation/atomic-foundation/quarks/range-slider";
+//@import "bower_components/atomic-foundation/atomic-foundation/quarks/tables";
+//@import "bower_components/atomic-foundation/atomic-foundation/quarks/thumbnail";
+//@import "bower_components/atomic-foundation/atomic-foundation/quarks/tooltip";
+//@import "bower_components/atomic-foundation/atomic-foundation/quarks/typography";
 
 //        ##  ######  #####  ##   ##  #####  
 //       #### # ## # ##   ## ### ### ##   ## 
@@ -50,22 +50,22 @@
 //      ##  ## ####   #####  ##   ##  #####  
 //                                           
 
-//@import "bower_components/atomic-foundation/atoms/accordion";
-//@import "bower_components/atomic-foundation/atoms/alert-box";
-//@import "bower_components/atomic-foundation/atoms/breadcrumb";
-//@import "bower_components/atomic-foundation/atoms/clearing";
-//@import "bower_components/atomic-foundation/atoms/dropdown";
-//@import "bower_components/atomic-foundation/atoms/icon-bar";
-//@import "bower_components/atomic-foundation/atoms/joyride";
-//@import "bower_components/atomic-foundation/atoms/magellan";
-//@import "bower_components/atomic-foundation/atoms/off-canvas";
-//@import "bower_components/atomic-foundation/atoms/pagination";
-//@import "bower_components/atomic-foundation/atoms/pricing-table";
-//@import "bower_components/atomic-foundation/atoms/reveal";
-//@import "bower_components/atomic-foundation/atoms/side-nav";
-//@import "bower_components/atomic-foundation/atoms/sub-nav";
-//@import "bower_components/atomic-foundation/atoms/tab";
-//@import "bower_components/atomic-foundation/atoms/top-bar";
+//@import "bower_components/atomic-foundation/atomic-foundation/atoms/accordion";
+//@import "bower_components/atomic-foundation/atomic-foundation/atoms/alert-box";
+//@import "bower_components/atomic-foundation/atomic-foundation/atoms/breadcrumb";
+//@import "bower_components/atomic-foundation/atomic-foundation/atoms/clearing";
+//@import "bower_components/atomic-foundation/atomic-foundation/atoms/dropdown";
+//@import "bower_components/atomic-foundation/atomic-foundation/atoms/icon-bar";
+//@import "bower_components/atomic-foundation/atomic-foundation/atoms/joyride";
+//@import "bower_components/atomic-foundation/atomic-foundation/atoms/magellan";
+//@import "bower_components/atomic-foundation/atomic-foundation/atoms/off-canvas";
+//@import "bower_components/atomic-foundation/atomic-foundation/atoms/pagination";
+//@import "bower_components/atomic-foundation/atomic-foundation/atoms/pricing-table";
+//@import "bower_components/atomic-foundation/atomic-foundation/atoms/reveal";
+//@import "bower_components/atomic-foundation/atomic-foundation/atoms/side-nav";
+//@import "bower_components/atomic-foundation/atomic-foundation/atoms/sub-nav";
+//@import "bower_components/atomic-foundation/atomic-foundation/atoms/tab";
+//@import "bower_components/atomic-foundation/atomic-foundation/atoms/top-bar";
 
 //      ##   ##  ##### ####    #######  ####  ##   ## ####    #######  #####  
 //      ### ### ##   ## ##      ##   # ##  ## ##   ##  ##      ##   # ##   ## 
@@ -76,4 +76,4 @@
 //      ##   ##  ##### ####### #######  ####   #####  ####### #######  #####  
 //                                                                            
 
-//@import "bower_components/atomic-foundation/molecules/orbit";
+//@import "bower_components/atomic-foundation/atomic-foundation/molecules/orbit";
