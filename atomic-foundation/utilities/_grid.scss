@@ -8,5 +8,5 @@
 // $total-columns: 12;
 // $column-gutter: rem-calc(30);
 
-@import "bower_components/foundation/scss/foundation/components/grid";
-@import "../../../atomic-foundation/foundation-placeholders/grid-placeholders";
+@import "../../../foundation/scss/foundation/components/grid";
+@import "../../foundation-placeholders/grid-placeholders";

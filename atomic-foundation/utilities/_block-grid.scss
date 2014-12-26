@@ -12,5 +12,5 @@
 // Enables media queries for block-grid classes. Set to false if writing semantic HTML.
 // $block-grid-media-queries: true;
 
-@import "bower_components/foundation/scss/foundation/components/block-grid";
-@import "bower_components/atomic-foundation/foundation-placeholders/block-grid-placeholders";
+@import "../../../foundation/scss/foundation/components/block-grid";
+@import "../../foundation-placeholders/block-grid-placeholders";
