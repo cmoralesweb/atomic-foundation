@@ -70,7 +70,7 @@
 // $select-bg-color: $ghost;
 // $select-hover-bg-color: scale-color($select-bg-color, $lightness: -3%);
 
-@import "../../../foundation/scss/foundation/components/forms";
+@import "../../bower_components/foundation/scss/foundation/components/forms";
 
 
 
@@ -113,4 +113,4 @@
 // Outline Style for tabbing through switches
 // $switch-label-outline: 1px dotted $jumbo;
 
-@import "../../../foundation/scss/foundation/components/switches";
+@import "../../bower_components/foundation/scss/foundation/components/switches";

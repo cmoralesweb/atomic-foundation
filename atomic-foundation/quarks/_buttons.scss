@@ -48,7 +48,7 @@
 // $button-disabled-opacity: 0.7;
 // $button-disabled-cursor: $cursor-default-value;
 
-@import "../../../foundation/scss/foundation/components/buttons";
+@import "../../bower_components/foundation/scss/foundation/components/buttons";
 
 // Button Groups
 // - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -59,7 +59,7 @@
 // $button-bar-margin-opposite: rem-calc(10);
 // $button-group-border-width: 1px;
 
-@import "../../../foundation/scss/foundation/components/button-groups";
+@import "../../bower_components/foundation/scss/foundation/components/button-groups";
 
 
 // Dropdown Buttons
@@ -100,7 +100,7 @@
 // $dropdown-button-pip-opposite-lrg: $button-pip-lrg * 2.5;
 // $dropdown-button-pip-top-lrg: -$button-pip-lrg / 2 + rem-calc(3);
 
-@import "../../../foundation/scss/foundation/components/dropdown-buttons";
+@import "../../bower_components/foundation/scss/foundation/components/dropdown-buttons";
 
 // Split Buttons
 // - - - - - - - - - - - - - - - - - - - - - - - - -
@@ -141,4 +141,4 @@
 // $split-button-pip-top-lrg: $button-pip-lrg + rem-calc(5);
 // $split-button-pip-default-float-lrg: rem-calc(-6);
 
-@import "../../../foundation/scss/foundation/components/split-buttons";
+@import "../../bower_components/foundation/scss/foundation/components/split-buttons";
