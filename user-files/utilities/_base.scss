@@ -6,7 +6,7 @@
 
 // Allows the use of rem-calc() or lower-bound() in your settings
 //@import "foundation/functions"; //Foundation's default, NOT COMPATIBLE WITH SASS >= 3.3
-@import "../../../atomic-foundation/foundation-placeholders/functions"; // Patched version compatible with SASS >= 3.3, BUT BREAKS WITH SASS <= 3.2
+@import "ROUTE_TO_BOWER_COMPONENTS/atomic-foundation/foundation-placeholders/functions"; // Patched version compatible with SASS >= 3.3, BUT BREAKS WITH SASS <= 3.2
 
 // The default font-size is set to 100% of the browser style sheet (usually 16px)
 // for compatibility with browser-based text zoom or user-set defaults.
