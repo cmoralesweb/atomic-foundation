@@ -21,12 +21,16 @@
 @for $i from 1 through $total-columns {
     %small-#{$i} { 
         @include grid-column($i); 
-    }  
+    }
+}
+@for $i from 1 through $total-columns {
     %medium-#{$i} {
         @media #{$medium-up} {
             @include grid-column($i); 
         }
     }
+}
+@for $i from 1 through $total-columns {
     %large-#{$i} {
         @media #{$large-up} {
             @include grid-column($i); 
@@ -43,23 +47,31 @@
         margin-#{$default-float}: grid-calc($i, $total-columns);
         @extend %push-pull-base;
     }
+}
+@for $i from 1 through $total-columns {
     %medium-offset-#{$i} {
         @extend %push-pull-base;
         @media #{$medium-up} {
             margin-#{$default-float}: grid-calc($i, $total-columns);
         }
     }
+}
+@for $i from 1 through $total-columns {
     %large-offset-#{$i} {
         @extend %push-pull-base;
         @media #{$large-up} {
             margin-#{$default-float}: grid-calc($i, $total-columns);
         }
     }
+}
+@for $i from 1 through $total-columns {
     %small-push-#{$i} {
         @extend %push-pull-base;
         #{$default-float}: grid-calc($i, $total-columns);
         #{$opposite-direction}: auto;
     }
+}
+@for $i from 1 through $total-columns {
     %medium-push-#{$i} {
         @extend %push-pull-base;
         @media #{$medium-up} {
@@ -67,6 +79,8 @@
             #{$opposite-direction}: auto;
         }
     }
+}
+@for $i from 1 through $total-columns {
     %large-push-#{$i} {
         @extend %push-pull-base;
         @media #{$large-up} {
@@ -74,11 +88,15 @@
             #{$opposite-direction}: auto;
         }
     }
+}
+@for $i from 1 through $total-columns {
     %small-pull-#{$i} {
         @extend %push-pull-base;
         #{$opposite-direction}: grid-calc($i, $total-columns);
         #{$default-float}: auto;
     }
+}
+@for $i from 1 through $total-columns {
     %medium-pull-#{$i} {
         @extend %push-pull-base;
         @media #{$medium-up} {
@@ -86,6 +104,8 @@
             #{$default-float}: auto;
         }
     }
+}
+@for $i from 1 through $total-columns {
     %large-pull-#{$i} {
         @extend %push-pull-base;
         @media #{$large-up} {
