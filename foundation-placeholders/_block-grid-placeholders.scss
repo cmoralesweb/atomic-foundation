@@ -9,12 +9,16 @@
         @extend %block-grid-base;
         @include block-grid($i,$block-grid-default-spacing,false,false);
     }
-    @media #{$small} {
+}
+@for $i from 1 through $block-grid-elements {
+    @media #{$medium-up} {
         %medium-block-grid-#{$i} {
             @include block-grid($i,$block-grid-default-spacing,false,false);
         }
     }
-    @media #{$medium} {
+}
+@for $i from 1 through $block-grid-elements {
+    @media #{$large-up} {
         %large-block-grid-#{$i} {
             @include block-grid($i,$block-grid-default-spacing,false,false);
         }
